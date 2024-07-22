@@ -1,0 +1,68 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #facc15; /* Amarillo */
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    background-color: #1f1f1f; /* Fondo gris oscuro para el formulario */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 360px;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #facc15; /* Amarillo */
+    font-weight: bold;
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #facc15; /* Amarillo */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #333333; /* Fondo oscuro para los campos */
+    color: #ffffff; /* Texto blanco en los campos */
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #facc15; /* Amarillo */
+    border: none;
+    border-radius: 8px;
+    color: #000000; /* Texto negro en el botón */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo del botón en estado hover */
+button:hover {
+    background-color: #eab308; /* Amarillo más oscuro */
+}
+
