@@ -36,12 +36,18 @@ echo \
 
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+
 For Docker-Compose:
+
+
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 Verify the correct installation by executing basic Docker and Docker-Compose commands:
 docker --version
 docker-compose --version
+
+
 3. Configuration of Prometheus
 Create a docker-compose.yml to define the Prometheus service and configure it to collect relevant project metrics.
 
